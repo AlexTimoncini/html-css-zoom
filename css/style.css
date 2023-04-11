@@ -72,5 +72,45 @@ main .meeting-room .user-box .user-name-wrapper .user-name{
     display: inline-block;
 }
 
+main .command-bar nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
 
+main .command-bar nav .command{
+    padding: 0 10px;
+    text-align: center;
+    font-size: 0.85rem;
 
+}
+
+main .command-bar nav .command i{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+main .command-bar nav i.fa-chevron-down{
+    font-size: 0.6rem;
+    align-self: center;
+    padding: 0 10px;
+    transform: rotate(180deg);
+}
+
+main .command-bar nav i.fa-share-from-square{
+    color: #4bc800;
+}
+
+main .command-bar nav .meeting-end{
+    color:red;
+    padding: 0 15px;
+    font-size: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 80px;
+    line-height: 80px;
+}
