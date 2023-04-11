@@ -32,6 +32,7 @@ header .icon-container{
     font-size: 0.9rem;
     border-radius: 0.4rem;
     margin: 10px 7px 0 0;
+    cursor: pointer;
 }
 
 header .icon-container i{
@@ -61,6 +62,7 @@ main .meeting-room .user-box{
     height: 150px;
     width: 250px;
     align-items: end;
+    cursor: grab;
 }
 
 main .meeting-room .user-box .user-name-wrapper{
@@ -87,7 +89,7 @@ main .command-bar nav .command{
     padding: 0 10px;
     text-align: center;
     font-size: 0.85rem;
-
+    cursor: pointer;
 }
 
 main .command-bar nav .command i{
@@ -100,6 +102,7 @@ main .command-bar nav i.fa-chevron-down{
     align-self: center;
     padding: 0 10px;
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 main .command-bar nav i.fa-share-from-square{
@@ -113,4 +116,5 @@ main .command-bar nav .meeting-end{
     background-color: rgba(255, 255, 255, 0.2);
     height: 80px;
     line-height: 80px;
+    cursor: pointer;
 }
